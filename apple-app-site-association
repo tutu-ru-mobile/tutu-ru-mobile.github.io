@@ -1,15 +1,12 @@
 {
-  "applinks": {
-      "details": [
-           {
-             "appIDs": [ "3V868FP58Z.ru.tutu.TransportApp" ],
-             "components": [
-               {
-                  "/": "/",
-                  "comment": "Matches any URL whose path starts with /buy/"
-               }
-             ]
-           }
-       ]
-   }
+    "applinks": {
+        "apps": [],
+        "details": {
+            "3V868FP58Z.ru.tutu.TransportApp": {
+                "paths": [
+                    "*"
+                ]
+            }
+        }
+    }
 }

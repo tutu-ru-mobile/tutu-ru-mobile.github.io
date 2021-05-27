@@ -4,12 +4,7 @@
         "details": [
             {
                 "appID": "3V868FP58Z.ru.tutu.TransportApp",
-                "paths": [
-                    "/",
-                    "/path/to/content", 
-                    "/path/to/other/*", 
-                    "NOT /path/to/exclude" 
-                ]
+                "paths": ["*"]
             }
         ]
     }

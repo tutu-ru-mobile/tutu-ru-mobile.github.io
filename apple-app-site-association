@@ -3,9 +3,7 @@
         "apps": [],
         "details": {
             "3V868FP58Z.ru.tutu.TransportApp": {
-                "paths": [
-                    "*"
-                ]
+                "paths": ["/*"]
             }
         }
     }

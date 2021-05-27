@@ -1,10 +1,18 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": {
-            "3V868FP58Z.ru.tutu.TransportApp": {
-                "paths": ["/*"]
-            }
-        }
-    }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [ "3V868FP58Z.ru.tutu.TransportApp" ],
+        "appID": "3V868FP58Z.ru.tutu.TransportApp",
+        "components": [
+          {
+            "/": "/*",
+            "comment": "This documentation is awful"
+          }
+        ],
+        "paths": [ "/*" ]
+      }
+    ]
+  }
 }

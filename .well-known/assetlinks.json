@@ -6,4 +6,20 @@
     "sha256_cert_fingerprints":
     ["6C:BA:BD:1F:F6:EA:5B:87:B0:3A:87:73:CC:39:2C:7B:5F:7F:CA:45:4D:FF:7D:2A:2A:E5:43:8F:AD:70:C3:15"]
   }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://tutu-ru-mobile.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "ru.tutu.tutu_emp",
+    "sha256_cert_fingerprints":
+    ["6C:BA:BD:1F:F6:EA:5B:87:B0:3A:87:73:CC:39:2C:7B:5F:7F:CA:45:4D:FF:7D:2A:2A:E5:43:8F:AD:70:C3:15"]
+  }
 }]

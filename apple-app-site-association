@@ -2,10 +2,36 @@
   "applinks": {
     "apps": [],
     "details": [
-    {
-      "appID": "3V868FP58Z.ru.tutu.TransportApp",
-      "paths": ["*"]
-    }
+      {
+        "appID": "3V868FP58Z.ru.tutu.TransportApp",
+        "components": [
+          {
+            "/": "/"
+          },
+          {
+            "/": "/flights/*",
+            "?": {
+              "from": "?*",
+              "to": "?*",
+              "passengers": "?*",
+              "route[0]": "?*",
+              "class": "?*",
+              "changes": "?*"
+            }
+          },
+          {
+            "/": "/offers/*",
+          },
+          {
+            "/": "/offers/*",
+            "?": { "threeDays": "?*" },
+            "exclude": true
+          },
+          {
+            "/": "/user/profile/my_orders/*/"
+          }
+        ]
+      }
     ]
   }
 }
